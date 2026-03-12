@@ -1,0 +1,341 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.container {
+  width: 100%;
+  height: 300vh;
+  background-color: #192d40;
+}
+.header {
+  width: 100%;
+  height: 104px;
+  background-color: #171d25;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  
+}
+.header img {
+  padding: 40px;
+}
+button{
+    border-radius: 50px;
+}
+.header button{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-left:  550px;
+}
+.basliq {
+  width: 100%;
+  height: 46px;
+  display: flex;
+}
+ul {
+  list-style: none;
+  gap: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   text-shadow: 1px 1px 2px rgb(255, 255, 255),
+  0 0 1em rgb(255, 255, 255),
+  0 0 0.2em rgb(255, 255, 255); 
+  
+}
+.basliq ul {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.nawBar {
+  width: 100%;
+  height: 46px;
+  background-color: #182636;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nawBar1 {
+  width: 50%;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nawBar2 {
+  width: 50%;
+  height: 46px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+ul {
+  display: flex;
+  padding: 0px 0px 0px 30px;
+  list-style: none;
+  gap: 20px;
+}
+ul li a {
+  text-decoration: none;
+}
+.button {
+  width: 46px;
+  height: 37px;
+  margin: 0px 15px 0px 0px;
+}
+.button img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.button img:hover {
+  width: 110%;
+  height: 110%;
+}
+.bodyParent {
+  width: 100%;
+  height: 100vh;
+  background-color: #1a2b40;
+  display: flex;
+  flex-wrap: wrap;
+}
+.parent1 {
+  width: 59%;
+  height: 452px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.parent2 {
+  width: 41%;
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+/* .cubuq{
+    width: 966px;
+    height: 40px;
+} */
+.qapaq1 {
+  width: 616px;
+  height: 346.3px;
+  box-shadow: rgba(255, 255, 255, 0.685) 0px 30px 90px;
+  border-radius: 7px;
+  
+}
+.video1 {
+  width: 100%;
+  height: 100%;
+  
+}
+.qapaq2 {
+  width: 350px;
+  height: 170.1px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  background-image: url("https://wallpapers.com/images/featured/black-wuuaobghtdllhliu.jpg");
+  /* box-shadow: rgba(255, 255, 255, 0.685) 0px 30px 90px; */
+  
+}
+.qapaq2 .Resident{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.qapaq3 {
+  width: 350px;
+  height: 176.3px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  /* box-shadow: rgba(255, 255, 255, 0.599) 0px 30px 90px; */
+}
+.qapaq22 {
+  width: 162px;
+  height: 95px;
+  background-color: green;
+  margin-bottom: 7px;
+  transition: 0.5s;
+}
+.qapaq22:hover {
+  width: 170px;
+  height: 105px;
+}
+.qapaq23 {
+  width: 162px;
+  height: 95px;
+  background-color: green;
+  margin-top: 7px;
+  transition: 0.5s;
+}
+.qapaq23:hover {
+  width: 170px;
+  height: 105px;
+}
+.qapaq1 img {
+  width: 100%;
+  height: 100%;
+}
+.qapaq3 {
+  background-image: url("https://wallpapers.com/images/featured/black-wuuaobghtdllhliu.jpg");
+}
+.qapaq22 img {
+  width: 100%;
+  height: 100%;
+}
+.qapaq23 img {
+  width: 100%;
+  height: 100%;
+}
+.oyun {
+  width: 100%;
+  height: 415px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(41, 46, 98, 0.171) 0px 10px 50px;
+}
+.oyun1 {
+  width: 946px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.oyun1 img {
+  width: 100%;
+  height: 75%;
+}
+.oyun3 {
+  width: 946px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.oyun3 img {
+  width: 100%;
+  height: 75%;
+}
+.oyun2 {
+  width: 306px;
+  height: 190px;
+  background-image: url("https://www.shutterstock.com/image-photo/panoramic-abstract-blue-background-product-600nw-2500946363.jpg");
+  box-shadow: rgba(255, 255, 255, 0.685) 0px 30px 90px;
+  transition: 0.5s;
+}
+.oyun2:hover {
+  width: 315px;
+  height: 215px;
+}
+.oyun2 .qiymetA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oyun2 #qiymetB {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 15px;
+  background-color: #162f40;
+  color: #aedc15;
+}
+.oyun span {
+  font-size: 30px;
+  background-color: #4c6b22;
+  color: #bded11;
+}
+.oyun4 {
+  width: 306px;
+  height: 190px;
+  box-shadow: rgba(255, 255, 255, 0.685) 0px 30px 90px;
+  background-image: url("https://www.shutterstock.com/image-photo/panoramic-abstract-blue-background-product-600nw-2500946363.jpg");
+  transition: 0.5s;
+}
+.oyun4:hover {
+  width: 315px;
+  height: 215px;
+}
+.oyun4 .qiymetA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oyun4 #qiymetB {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 15px;
+  background-color: #162f40;
+  color: #aedc15;
+}
+.qiymetA {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.Search, select{
+  width: 446px;
+  height: 34px;
+  background-color: gray;
+  color: white;
+  border-radius: 7px;
+  
+}
+input::placeholder{
+  color: white;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #1d2024;
+}
+#about img{
+    width: 280px;
+    height: 220px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#about video{
+    width: 1200px;
+    height: 600px;
+}
+#about .span{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.span{
+    width: 1000px;
+    height: 100px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 200px;
+    font-family: "Oswald", sans-serif;
+}
