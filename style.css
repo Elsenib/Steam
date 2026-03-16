@@ -94,8 +94,7 @@ ul li a {
   transition: 0.5s;
 }
 .button img:hover {
-  width: 110%;
-  height: 110%;
+  transform: scale(1.1);
 }
 .bodyParent {
   width: 100%;
