@@ -167,8 +167,7 @@ ul li a {
   transition: 0.5s;
 }
 .qapaq22:hover {
-  width: 170px;
-  height: 105px;
+  transform: scale(1.1);
 }
 .qapaq23 {
   width: 162px;
@@ -239,8 +238,7 @@ ul li a {
   transition: 0.5s;
 }
 .oyun2:hover {
-  width: 315px;
-  height: 215px;
+  transform: scale(1.1);
 }
 .oyun2 .qiymetA {
   display: flex;
@@ -268,8 +266,7 @@ ul li a {
   transition: 0.5s;
 }
 .oyun4:hover {
-  width: 315px;
-  height: 215px;
+  transform: scale(1.1);
 }
 .oyun4 .qiymetA {
   display: flex;
